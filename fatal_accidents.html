@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b47f20c18aa842139f69b126cf187aa2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b47f20c18aa842139f69b126cf187aa2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b47f20c18aa842139f69b126cf187aa2 = L.map(
+                "map_b47f20c18aa842139f69b126cf187aa2",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2e2bdbae08af8ce7e1c0586415e5786e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b47f20c18aa842139f69b126cf187aa2);
+        
+    
+            var marker_771b68e9abcb1d1741b868522da1a0eb = L.marker(
+                [40.6742, -73.99984],
+                {}
+            ).addTo(map_b47f20c18aa842139f69b126cf187aa2);
+        
+    
+        var popup_b29b3ec4c92c9dbf59c4556fe756021b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcc23384a04c84f1fe9d79f9c50a3c5c = $(`<div id="html_bcc23384a04c84f1fe9d79f9c50a3c5c" style="width: 100.0%; height: 100.0%;">Accident at HAMILTON AVENUE                 </div>`)[0];
+                popup_b29b3ec4c92c9dbf59c4556fe756021b.setContent(html_bcc23384a04c84f1fe9d79f9c50a3c5c);
+            
+        
+
+        marker_771b68e9abcb1d1741b868522da1a0eb.bindPopup(popup_b29b3ec4c92c9dbf59c4556fe756021b)
+        ;
+
+        
+    
+    
+            var marker_594774abaf0a253e72e43bffcd9d3fd2 = L.marker(
+                [40.6736898, -74.0118029],
+                {}
+            ).addTo(map_b47f20c18aa842139f69b126cf187aa2);
+        
+    
+        var popup_841f34fbb8c8178b572f1f32c121c0e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d371ada56d1c183b2c3efc9723e6b48f = $(`<div id="html_d371ada56d1c183b2c3efc9723e6b48f" style="width: 100.0%; height: 100.0%;">Accident at VAN DYKE STREET                 </div>`)[0];
+                popup_841f34fbb8c8178b572f1f32c121c0e3.setContent(html_d371ada56d1c183b2c3efc9723e6b48f);
+            
+        
+
+        marker_594774abaf0a253e72e43bffcd9d3fd2.bindPopup(popup_841f34fbb8c8178b572f1f32c121c0e3)
+        ;
+
+        
+    
+    
+            var marker_85de88efdebf38cd176a8597b5a98528 = L.marker(
+                [40.6741459, -74.006006],
+                {}
+            ).addTo(map_b47f20c18aa842139f69b126cf187aa2);
+        
+    
+        var popup_a13ffe9436f18dc1ad67379c2dba874a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab54a0606a538a5a49669a0a4c13d51f = $(`<div id="html_ab54a0606a538a5a49669a0a4c13d51f" style="width: 100.0%; height: 100.0%;">Accident at LORRAINE STREET                 </div>`)[0];
+                popup_a13ffe9436f18dc1ad67379c2dba874a.setContent(html_ab54a0606a538a5a49669a0a4c13d51f);
+            
+        
+
+        marker_85de88efdebf38cd176a8597b5a98528.bindPopup(popup_a13ffe9436f18dc1ad67379c2dba874a)
+        ;
+
+        
+    
+</script>
+</html>
