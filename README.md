@@ -1,6 +1,8 @@
 # OpenData 🗽
 
-OpenData is a comprehensive collection of analyses and visualizations for various datasets related to New York City. It covers diverse topics, from traffic accidents to Citi Bike usage and ferry boardings. This repository serves as a window into various facets of city dynamics using open datasets.
+OpenData is a comprehensive collection of analyses and visualizations for various datasets related to New York City. It
+covers diverse topics, from traffic accidents to Citi Bike usage and ferry boardings. This repository serves as a window
+into various facets of city dynamics using open datasets.
 
 ## Table of Contents
 
@@ -35,6 +37,7 @@ See [documentation](docs/red-hook-time-series.md).
 *In the heatmap, blue indicates limited bike availability while red suggests limited dock availability.*
 
 To uncover the intricate details and discover more patterns, check out the notebooks:
+
 - [Aggregate Analysis](notebooks/citi_bike_all.ipynb)
 - [Single Day Analysis](notebooks/citi_bike_single_day.ipynb)
 
