@@ -1,5 +1,6 @@
 .idea
 .DS_Store
 .ipynb_checkpoints
+*.html
 bin/*
 scripts/env.sh
