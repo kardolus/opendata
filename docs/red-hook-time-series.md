@@ -1,5 +1,8 @@
 # Time Series Of All Red Hook Citi Bike Docks
 
+## Prerequisites
+You'll need the [dockscan CLI](https://github.com/kardolus/citi-bike-dock-tracker). 
+
 ## Red Hook Stations
 
 For my analysis I first had to manually create a table of stations located in Red Hook.
