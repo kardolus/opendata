@@ -5,10 +5,12 @@ covers diverse topics, from traffic accidents to Citi Bike usage and ferry board
 into various facets of city dynamics using open datasets.
 
 ## Table of Contents
+
 - [Accident Statistics](#accident-statistics)
 - [Citi Bike Dock Usage](#citi-bike-dock-usage)
 - [Ferry Boardings](#ferry-boardings)
 - [NYPD Complaints Analysis](#nypd-complaints-analysis)
+- [Central Park Squirrel Census](#central-park-squirrel-census)
 - [Data Sources](#data-sources)
 
 ## Accident Statistics
@@ -67,9 +69,21 @@ the [NYPD Complaints notebook](notebooks/nypd_complaints.ipynb).
 For an in-depth analysis, detailed data wrangling, and other visualizations related to NYPD complaints, check out
 the [notebook](notebooks/nypd_complaints.ipynb).
 
+## Central Park Squirrel Census
+
+The Central Park Squirrel Census provides a fascinating look into the behaviors and distribution of squirrels within
+Central Park. This dataset offers insights into their primary fur colors, activities, and specific locations.
+
+Sample Visualization:
+![Central Park Squirrel Census (Sample)](resources/squirrels.png)  
+*Distribution of squirrel sightings based on their primary fur color in Central Park*
+
+For a comprehensive analysis and visualizations, check out the dedicated [notebook](notebooks/squirrel_census.ipynb).
+
 ## Data Sources
 
 * [Most Popular NYC Open Data Sets](https://data.cityofnewyork.us/browse?sortBy=most_accessed&utf8=%E2%9C%93)
 * [Accident Stats](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
 * [Ferry Boardings](https://data.cityofnewyork.us/Transportation/NYC-Ferry-Ridership/t5n6-gx8c)
 * [NYPD Complaints](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i)
+* [Central Park Squirrel Sightings](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw)
