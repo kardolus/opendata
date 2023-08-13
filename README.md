@@ -74,9 +74,15 @@ the [notebook](notebooks/nypd_complaints.ipynb).
 The Central Park Squirrel Census provides a fascinating look into the behaviors and distribution of squirrels within
 Central Park. This dataset offers insights into their primary fur colors, activities, and specific locations.
 
-Sample Visualization:
+Sample Visualizations:
 ![Central Park Squirrel Census (Sample)](resources/squirrels.png)  
 *Distribution of squirrel sightings based on their primary fur color in Central Park*
+
+![Central Park Squirrel Census (Sample)](resources/squirrel_heatmap.jpeg)  
+*Heatmap of squirrel sightings*
+
+![Central Park Squirrel Census (Sample)](resources/squirrel-activity.png)  
+*Squirrel break down by activity*
 
 For a comprehensive analysis and visualizations, check out the dedicated [notebook](notebooks/squirrel_census.ipynb).
 
